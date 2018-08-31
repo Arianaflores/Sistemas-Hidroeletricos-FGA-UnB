@@ -11,22 +11,44 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
 
   - Cada grupo terá em sua pasta do repositório um conjunto de dados de vazão que deverá ser usado ao longo deste e dos demais projetos quando necessário;
   
-  - Modelamento do aproveitamento hidrelétrico. Cada grupo deverá mostrar como ficará o sistema hidromecânico equivalente através do cálculo da energia hidráulica média disponível e do trabalho específico. O grupo 3 deverá usar a  altura de cota **de 10 m** para seu aproveitamento hidrelétrico:
-       
+  - Modelamento do aproveitamento hidrelétrico. Cada grupo deverá mostrar como ficará o sistema hidromecânico equivalente através do cálculo da energia hidráulica média disponível e do trabalho específico. O grupo 3 deverá usar a  altura de cota **de 10 m** para seu aproveitamento hidrelétrico: 
+    
+  O aproveitamento da energia potencial, por meio de quedas é determinada como energia hidráulica. A energia hidráulica média disponível, transformada em trabalho, é dada por:
+  
+  Fundamentado nas notas de aula, a energia específica terá seu valor máximo quando as condições a seguir ocorrerem:
+  
+  Assim, quanto mais próximo do ponto 2 estiver o nível de jusante, maior será seu aproveitamento hidrelétrico, assumindo seu valor máximo. Considerando que a velocidade no ponto 1 é muito pequena e tem pouca influência no cálculo da energia, e ainda assumindo a altura de cota de 10 metros, a energia hiráulica média será:
+  
+  Essa energia parta da modelagem do sistema hidromecânico equivalente, realizada a partir dos dados do reservatório.
+     
+  
+  Com o valor de queda líquida de aproveitamento (_H<sub>l</sub>_), calculado no tópico a seguir, obtêm-se o trabalho específico do sistema hidromecânico:
+  
 
   - Determinação da queda do aproveitamento: O grupo 3 deverá considerar uma perda de **0,5 m**, onde cada grupo deverá especificar se a central será de baixa ou de alta queda;
   
+  A queda de aproveitamento será definida pela altura de cota(_H<sub>b</sub>_) subtraída do valor de perda do sistema(_h<sub>p</sub>_):
 
        
   - Determinação da vazão média de longo tempo baseado nos dados de vazão dados a cada grupo. Cada grupo deverá mostrar como fez este cálculo e as hipóteses adotadas;
   
+  Para determinar a vazão média ao longo do tempo, em m³/s, a média foi baseada nos dados de vazão de todos os dias referentes aos dados disponibilizados, desde 1931 a 2013. Manipulados com ferramenta Excel o valor obtido foi de:
+  
+  
   - Cálculo da potência hidráulica máxima teórica média e da energia máxima teórica média;
+  
+  Com os dados de vazão média ao longo do tempo, e queda líquida (_H<sub>l</sub>_) calculados anteriormente é possível definir a potência hidráulica  máxima teórica (_P<sub>tmax</sub>_) como:
+  
+  
+  A energia hidráulica máxima teórica, com base numa estimativa de tempo (_t_) de retorno de _24h_ é:
   
   - Análise dos dados de vazão e energia máxima teórica média;
   
   - Escolha do tipo de central e o arranjo utilizado;
   
-  - Estimativa da potência instalada;
+  Como referenciado nas notas de aula, de acordo com _Resolução 652 da ANEEL_, a classificação para enquadramento de aproveitamento energético estaão baseadas na potência e altura de queda. Visto que possui uma potência entre _1000kW_ e _30MW_, é classificado como Pequena Central Hidrelétrica (PCH). 
+  
+  - Estimativa da potência instalada; 
   
   - Desenho esquemático do sistema hidromecânico equivalente;
   
@@ -35,6 +57,7 @@ O projeto do aproveitamento consistirá na realização e apresentação de cál
     - **Cargo e Função**, designando a tarefa de cada membro do grupo;
     - **Atuação**, designando os projetos a serem executados para a construção da usina;
     - **Obras e Serviços**, designando quais obras e serviços **relacionados a estudos, serviços e projetos civis** deverão ser executados para a construção da usina;
+    - Obs.: As ART's encontram-se como documentos disponibilizados na pasta do grupo 3.
 
         Um arquivo de ajuda de preenchimento e um modelo de ART estão disponibilizados neste repositório. **Cada grupo deverá fazer suas ARTs baseado no modelo disponibilizado e fazer o *upload* para este repositório, sem recorrer a arquivos prontos na internet**;
         
